@@ -6,14 +6,14 @@
    font-family: 'Livvic', sans-serif;
 }
 .fonts {
-   
    font-family: 'Noto Sans', sans-serif;
    font-family: 'Montserrat', sans-serif;
 }
+
 body {
    background-color: #fff;
 }
-/* START-ABOUT.HTML */
+/* START CONTACT.HTML */
 .contact-type {
    position: relative;
    background-color: #014E56;
@@ -33,6 +33,9 @@ body {
    font-weight: 700;
    margin-bottom: 16px;
 }
+.contact-contentt {
+   margin-left: 45px;
+}
 .contact-contentt .asc {
    font-size: 28px;
    font-weight: 700;
@@ -46,31 +49,30 @@ body {
    width: 65px;
    height: 65px;
 }
-.label-font {
-   /*margin-bottom: -30px;*/
-}
-
-
 .align {
    position: relative;
    margin-bottom: 20px;
 }
-.content-type, form, input {
-
+.content-type:hover  {
+   color: #F67E7E;
+}
+input {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background: none;
+   border-bottom: 1px solid #fff;
 }
 .block {
    width: 500px;
    display: block;
-   background: none;
-   border: none;
-   border-bottom: 1px solid #fff;
    margin-bottom: 30px;
 }
-.none {
-   border-bottom: none;
-   background-color: #014E56;
-   border: none;
-   resize: none;
+.border {
+   background: none;
+   border-top: none;
+   border-left: none;
+   border-bottom: 1px solid #fff;
 }
 label {
    margin-left: 15px;
@@ -92,8 +94,12 @@ label {
    right: 0;
    bottom: 0;
 }
-
 /* THE END HEADER */
+
+/* THE END CONTACT.HTML */
+
+
+/* START-ABOUT.HTML */
 /* START HEADER */
 .about-content {
    height: 400px;
@@ -109,15 +115,15 @@ label {
    position: absolute;
    font-size: 60px;
    font-weight: 700;
-   left: 100px;
+   left: 165px;
 }
 .about-text .about-parogrov{
    position: absolute;
-   width: 440px;
+   width: 600px;
    font-size: 16px;
    font-weight: 500;
    line-height: 28px;
-   right: 270px;
+   right: 150px;
    bottom: 150px;
 }
 .about-image .about-img {
@@ -130,7 +136,7 @@ label {
    font-weight: 800;
    color: #F67E7E;
    top: 50px;
-   left: 512px;
+   left: 480px;
 }
 /* THE END HEADER */
 
@@ -211,10 +217,11 @@ label {
 .navbar ul {
    align-items: center;
    margin-top: 40px;
-   margin-left: 130px;
+   margin-left: 160px;
 }
 .navbar li {
    padding-right: 50px;
+   list-style: none;
 }
 .navbar a {
    text-decoration: none;
@@ -229,6 +236,7 @@ label {
 .navbar .btn {
    position: absolute;
    right: 150px;
+   top: 45px;
    padding: 10px 24px;
    background: none;
    border: 1px solid #fff;
@@ -240,6 +248,7 @@ label {
 }
 
 .content {
+   position: relative;
    background-color: #014E56;
    align-items: center;
    height: 500px;
@@ -261,18 +270,19 @@ label {
    line-height: 25px;
    font-size: 16px;
    color: #fff;
-   top: 190px;
+   top: 100px;
    right: 100px;
    width: 350px;
 }
 .content-img {
    position: absolute;
-   bottom: -15px;
-   right: 100px;
+   right: 80px;
+   bottom: 0;
 }
 .line {
-   position: relative;
-   left: 220px;
+   position: absolute;
+   left: 700px;
+   top: 85px;
    font-size: 30px;
    font-weight: 600;
    color: #79C8C7;
@@ -390,7 +400,6 @@ label {
    margin-left: 115px;
 }
 .beautiful {
-   content: "";
    background-image: url('/img/tutuq.svg');
    background-repeat: no-repeat;
 }
@@ -408,9 +417,6 @@ label {
    height: 200px;
    background-color: #F67E7E;
    position: relative;
-}
-.reade {
-   justify-content: space-around;
 }
 .reade h3 {
    position: absolute;
@@ -464,6 +470,7 @@ label {
 }
 .footer-liks ul li {
    margin-bottom: 30px;
+   list-style: none;
 }
 .footer-liks a {
    list-style: none;
@@ -476,5 +483,46 @@ label {
    font-weight: 500;
 }
 /* THE END FOOTER */
+/* START MEDIA */
+@media only screen and (max-width: 768px) {
+   .container {
+      width: 96%;
+   }
+   /* START HEADER */
+   .navbar {
+      background-color: #014E56;
+   }
+   .navbar ul {
+      margin-left: 20px;
+   }
+   .navbar .btn {
+      right: 80px;
+   }
 
+   .content {
+      display: block;
+      height: 600px;
+   }
+   .half {
+      display: none;
+   }
+   .line {
+      display: none;
+   }
+   .content .find-title {
+      font-size: 60px;
+      text-align: center;
+      left: 30%;
+   }
+   .find-text{
+      text-align: center;
+      left: 28%;
+      margin-top: 20%;
+   }
+   .content-img {
+      left: 30%;
+   }
+
+   /* THE END HEADER */
+}
 /* THE END-INDEX-HTML */

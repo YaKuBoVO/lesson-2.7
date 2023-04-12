@@ -1,0 +1,482 @@
+
+
+
+
+/* START-ABOUT.HTML */
+/* START HEADER */
+.navbar {
+   position: relative;
+   height: 100px;
+   background-color: #014E56;
+}
+.navbar ul {
+   align-items: center;
+   margin-top: 40px;
+   margin-left: 160px;
+}
+.navbar li {
+   padding-right: 50px;
+   list-style: none;
+}
+.navbar a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+}
+.navbar .font-size {
+   font-size: 40px;
+   font-weight: 600;
+}
+.navbar .btn {
+   position: absolute;
+   right: 150px;
+   top: 45px;
+   padding: 10px 24px;
+   background: none;
+   border: 1px solid #fff;
+   color: #fff;
+   border-radius: 25px;
+}
+.navbar li.aktiv a, .navbar a:hover {
+   color: tomato;
+}
+
+
+
+.about-content {
+   height: 400px;
+   background-color: #014E56;
+   justify-content: space-between;
+   position: relative;
+   color: #fff;
+}
+.about-content .about-title, .about-text, .about-image {
+   margin-top: 90px;
+}
+.about-title h1 {
+   position: absolute;
+   font-size: 60px;
+   font-weight: 700;
+   left: 165px;
+}
+.about-text .about-parogrov{
+   position: absolute;
+   width: 600px;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
+   right: 150px;
+   bottom: 150px;
+}
+.about-image .about-img {
+   position: relative;
+   top: 110px;
+}
+.color-line {
+   position: absolute;
+   font-size: 30px;
+   font-weight: 800;
+   color: #F67E7E;
+   top: 50px;
+   left: 480px;
+}
+/* THE END HEADER */
+
+
+/* START CILENTS */
+.cilents {
+   position: relative;
+   height: 1000px;
+   background-color: #004047;
+}
+.half-left {
+   position: absolute;
+}
+.cilents-title {
+   text-align: center;
+   font-size: 48px;
+   font-weight: 700;
+   margin-top: 100px;
+   margin-bottom: 68px;
+   color: #fff;
+}
+.cilents-item {
+   justify-content: space-evenly;
+   margin-bottom: 50px;
+}
+.cilents-item li {
+   list-style: none;
+}
+.cilents-img {
+   background-color: #012F34;
+   list-style: none;
+   color: #012F34;
+}
+.squari-right {
+  position: absolute;
+  right: 0; 
+}
+/* THE END CILENTS */
+/* START FONTS */
+.fonts {
+   position: relative;
+   background-color: #012F34;
+   height: 420px;
+}
+.fonts-content {
+   margin-top: 140px;
+}
+.fonts-content h2 {
+   text-align: center;
+   margin-bottom: 80px;
+   font-weight: 700;
+   font-size: 48px;
+   color: #fff;
+}
+.fotns-img {
+   width: 80%;
+   margin-left: 150px;
+}
+.krugli {
+   position: absolute;
+}
+/* THE END FONTS */
+
+
+/* START FOOTER */
+.footer-info {
+   height: 200px;
+   background-color: #002529;
+   justify-content: space-around;
+   color: #fff;
+}
+.footer-info .my-content, .adres, .footer-liks {
+   margin-top: 50px;
+}
+.my-content h2 {
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 40px;
+}
+.my-content p {
+   font-size: 18px;
+   font-weight: 600;
+   margin: 0 65px;
+   margin-left: 0px;
+}
+.adres {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
+}
+.footer-liks ul li {
+   margin-bottom: 30px;
+   list-style: none;
+}
+.footer-liks a {
+   width: 100%;
+   list-style: none;
+   font-size: 25px;
+   color: #fff;
+   margin-left: 40px;
+}
+.reserved {
+   font-size: 16px;
+   font-weight: 500;
+}
+/* THE END FOOTER */
+
+
+/* THE END-ABOUT.HTML */
+
+@media only screen and (max-width: 768px) {
+   .container {
+      width: 98%;
+   }
+   /* START HEADER */
+   /*  */
+   .navbar {
+      background-color: #014E56;
+   }
+   .navbar ul {
+      margin-left: 20px;
+   }
+   .navbar .btn {
+      right: 80px;
+   }
+   /*  */
+   .about-content .color-line {
+      display: none;
+   }
+   .about-content .about-title h1 {
+      top: 50px;
+      left: 35%;
+   }
+   .about-content .about-parogrov {
+      width: 520px;
+      top: 130px;
+      left: 90px;
+      text-align: center;
+   }
+   /* THE END HEADER */
+
+   /* START CILETNS */
+   .cilents {
+      position: relative;
+      height: 1670px;
+   }
+   .cilents .cilents-title {
+      margin-top: 140px;
+      font-size: 34px;
+   }
+   .about-cilents .cilents-item {
+      flex-wrap: wrap;
+   }
+   .nikita, .cristian {
+      margin-bottom: 35px;
+   }
+  .drake, .grifiin {
+   margin-bottom: 35px;
+  }
+   /* THE END CILETNS */
+
+  /* START FONTS */
+  .fonts {
+   height: 308px;
+  }
+  .fonts .krugli {
+   top: -30%;
+  }
+  .fonts-content h2 {
+   margin-bottom: 30px;
+  }
+  .fonts .fotns-img {
+   margin-left: 10%;
+  }
+
+  /* THE END FONTS */
+  
+   /* START FOOTER */
+   .footer-info {
+      margin-top: 0;
+      height: 240px;
+   }
+
+   .footer-info .my-content,
+   .adres,
+   .footer-liks {
+      margin-top: 40px;
+   }
+
+   .footer-info .my-content h2 {
+      font-size: 30px;
+      margin-left: 15px;
+      margin-bottom: 28px;
+   }
+
+   .footer-info .my-content p {
+      font-size: 16px;
+      margin: 0 12px;
+      margin-bottom: 0px;
+   }
+
+   .footer-info .adres {
+      text-align: center;
+   }
+
+   .blockk {
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      margin-bottom: 0px;
+
+   }
+
+   .blockk a {
+      margin-bottom: 0px;
+   }
+
+   .footer-item {
+      margin-top: 130px;
+      padding: 0 0;
+   }
+
+   .reserved {
+      margin-bottom: 0px;
+      margin-top: 130px;
+   }
+
+   /* THE END FOOTER */
+}
+
+
+
+
+
+/* MEDIA TWO */
+@media only screen and (max-width: 375px) {
+   .container {
+      width: 98%;
+   }
+ /* START HEADER */
+ /* START NAVBAR */
+.navbar .none {
+   display: none;
+}
+.display-none {
+   display: inline;
+   align-items: center;
+}
+.none-text {
+   position: absolute;
+   top: 30px;
+   font-size: 30px;
+   color: #fff;
+}
+.menu-teggle {
+   display: block;
+   position: relative;
+   background: none;
+   margin-top: 40px;
+   z-index: 1;
+   left: 315px;}
+.menu-teggle, .checkbox{
+   display: inline;
+   position: absolute;
+   width: 35px;
+   height: 28px;
+   cursor: pointer;
+   z-index: 2;
+}
+.checkbox {
+   opacity: 0;
+}
+.menu-teggle span {
+   display: block;
+   position: absolute;
+   width: 35px;
+   height: 4px;
+   margin-bottom: 6px;
+   background-color: #c6c6c6;
+   border-radius: 4px;
+   position: relative;
+}
+   /* THE END NAVBAR */
+
+.about-content {
+   display: static;
+   position: relative;
+   height: 420px;
+}
+.color-line {
+   display: none;
+}
+.about-content .about-title .about {
+   position: absolute;
+   left: 100px;
+}
+.about-content .about-text .about-parogrov {
+   position: absolute;
+   left: 10px;
+   width: 327px;
+   height: 200px;
+   font-size: 15px;
+   margin-top: 20px;
+   }
+   .about-content .about-img {
+   position: relative;
+   top: 240px;
+   }
+   /* THE END HEADER */
+
+   /* START CILETNS */
+.cilents {
+   position: relative;
+   height: 2150px;
+}
+.cilents .half-left {
+   top: -100px;
+}
+.cilents .cilents-title {
+   position: relative;
+   top: -10px;
+   font-size: 32px;
+}
+.cilents .cilents-img {
+   width: 327px;
+   height: 253px;
+}
+
+/* THE END CILETNS */
+
+/* START FONTNS */
+.fonts .krugli{
+   position: absolute;
+   top: -100px;
+   left: -100px;
+}
+.fonts .fonts-content {
+   position: absolute;
+   font-size: 15px;
+   top: -50px;
+}
+/* THE END FONTS */
+
+
+
+
+/* START FOOTER */
+/*  */
+.contact-content {
+   position: relative;
+   height: 300px;
+}
+.contact-content .ready-title {
+   text-align: center;
+   margin-left: 0;
+   right: 70px;
+   top: 50px;
+}
+.contact-content .contact-bttn {
+   top: 150px;
+   right: 120px;
+}
+/*  */
+
+   /* START FOOTER */
+   .footer-info {
+      position: relative;
+      height: 200px;
+      background-color: #002529;
+   }
+
+   .footer-info .my-content {
+      position: absolute;
+      margin-bottom: 10px;
+      left: 120px;
+   }
+
+   .adres .good {
+      text-align: center;
+   }
+
+   .reserved {
+      position: absolute;
+      left: 40px;
+      top: 200px;
+   }
+
+   .blockk {
+      margin-left: 75px;
+      top: 155px;
+   }
+   .display-nonee {
+      position: absolute;
+      top: 150px;
+      text-align: center;
+      line-height: 27px;
+   }
+   /* THE END FOOTER */
+}
+/* THE END ABOUT.HTML */

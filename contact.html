@@ -14,6 +14,8 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="stylesheet" href="style/style.css">
    <link rel="stylesheet" href="style/colmn.css">
+   <link rel="stylesheet" href="/style/about.css">
+   <link rel="stylesheet" href="/style/contact.css">
    <title>Contact.html</title>
 </head>
 
@@ -23,16 +25,24 @@
    <header>
       <nav>
          <div class="container">
-            <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">-->
             <div class="navbar">
-               <ul class="row">
+               <div class="display-none">
+                  <p class="none-text">myteam</p>
+                  <div class="menu-teggle">
+                  <input class="checkbox" type="checkbox" id="check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               </div>
+               <ul class="none row">
                   <li><a href="#"><span class="font-size">myteam</span></a></li>
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="about.html">about</a></li>
-                  <li class="aktiv"><a href="contact.html"><button class="btn" type="submit">contact us</button></a>
-                  </li>
+                  <li ><a href="index.html">home</a></li>
+                  <li ><a href="about.html">about</a></li>
+                  <li class="aktiv"><a href="contact.html"><button class="btn" type="submit">contact us</button></a></li>
                </ul>
             </div>
+         </div>
          </div>
       </nav>
    </header>
@@ -74,7 +84,7 @@
 
                <div class="content-type">
                   <form class="block">
-                     <label class="red">Name</label>
+                     <label>Name</label>
                      <input class="block" type="text" name="first-name">
                      <label>EmailAddress</label>
                      <input class="block" type="email" name="email">
@@ -101,26 +111,28 @@
          <div class="footer-info row">
             <div class="my-content">
                <h2>myteam</h2>
-               <div class="row">
+               <div class="center row">
                   <p>home</p>
                   <p>about</p>
                </div>
             </div>
 
             <div class="adres">
-               <p>987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
+               <p class="good">987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
             </div>
             <div class="footer-liks">
                <ul>
-                  <div class="row">
-                     <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                     <li><a href="#"><i class="bi bi-pinterest"></i></a></li>
-                     <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                  </div>
-                  <p class="reserved">Copyright 2020. All Rights Reserved</p>
+               <div class="blockk row">
+                  <li class="footer-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li class="footer-item"><a href="#"><i class="bi bi-pinterest"></i></a></li>
+                  <li class="footer-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+               </div>
                </ul>
+               <p class="reserved">Copyright 2020. All Rights Reserved</p>
             </div>
+            <p class="display-nonee">987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
          </div>
+         
       </div>
    </footer>
    <!-- THE END FOOTER -->

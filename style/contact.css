@@ -1,0 +1,235 @@
+
+
+
+/* START CONTACT.HTML */
+.contact-type {
+   position: relative;
+   background-color: #014E56;
+   color: #fff;
+   height: 485px;
+}
+.contact-img {
+   position: absolute;
+}
+.left-right {
+   margin-top: 45px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.contact-contentt h1 {
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+.contact-contentt {
+   margin-left: 45px;
+}
+.contact-contentt .asc {
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 18px;
+   color: #F67E7E;
+}
+.contact-contentt p {
+   margin-top: 18px;
+}
+.font-size {
+   width: 65px;
+   height: 65px;
+}
+.align {
+   position: relative;
+   margin-bottom: 20px;
+}
+textarea:focus {
+   outline: none;
+}
+input {
+   border: none;
+   background: none;
+   border-bottom: 1px solid #fff;
+}
+input:focus {
+   outline: none;
+}
+input:focus ~ label {
+   margin-bottom: #F67E7E;
+}
+
+.block {
+   width: 500px;
+   display: block;
+   margin-bottom: 30px;
+}
+.border {
+   background: none;
+   border: none;
+   border-bottom: 1px solid #fff;
+}
+label {
+   margin-left: 15px;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.btn-suvmit {
+   position: relative;
+   bottom: 20px;
+   padding: 8px 35px;
+   font-size: 18px;
+   font-weight: 600;
+   border: 1px solid #fff;
+   border-radius: 20px;
+}
+.contact-image {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+/* THE END HEADER */
+
+
+
+/* START MEDIA */
+@media only screen and (max-width: 768px) {
+.container {
+   width: 98%;
+}
+.contact-type {
+   height: 930px;
+}
+.contact-type .left-right{
+   display: inline-block;
+}
+.contact-contentt {
+   margin-left: 170px;
+   margin-bottom: 40px;
+}
+.contact-contentt .git, .asc {
+   margin-left: 100px;
+}
+.content-type {
+   margin-left: 120px;
+}
+
+/* START FOOTER */
+  .footer-info {
+   position: relative;
+   margin-top: 0;
+   height: 240px;
+  }
+  .footer-info .my-content, .adres, .footer-liks {
+   margin-top: 40px;
+}
+  .footer-info .my-content h2 {
+   font-size: 30px;
+   margin-left: 15px;
+   margin-bottom: 28px;
+  }
+  .footer-info .my-content p {
+   font-size: 16px;
+   margin: 0 12px;
+   margin-bottom: 0px;
+  }
+  .footer-info .adres {
+   position: relative;
+   text-align: center;
+   margin-bottom: 0px;
+   left: 260px;
+  }
+  .blockk {
+   width: 100%;
+   position: absolute;
+   left: 15px;
+   top: 65;
+   margin-bottom: 0px;
+   
+  }
+  .blockk a {
+   margin-left: 24px;
+   margin-bottom: 0px;
+  }
+  .footer-item {
+   margin-top: 130px;
+  }
+  .reserved {
+   margin-bottom: 0px;
+   margin-top: 130px;
+  }
+   }
+/* THE END MEDIA */
+
+
+
+/* START MEDIA-TWO */
+@media only screen and (max-width: 375px) {
+   .container {
+      width: 98%;
+   }
+   .none {
+      display: inline-block;
+   }
+   .contact-type {
+      min-height: 980px;
+   }
+   .contact-type .contact-img {
+      display: none;
+   }
+
+   .contact-type .contact-contentt {
+      margin-left: 0px;
+   }
+   .contact-type .contact-contentt ul {
+      margin-left: 30px;
+   }
+   .contact-type .contact-contentt p {
+      width: 200px;
+   }
+   .content-type {
+      width: 325px;
+      margin-left: 18px;
+   }
+   .content-type .contact-image {
+     position: absolute;
+      right: -50px;
+   }
+
+   /* START FOOTER */
+   .footer-info {
+      position: relative;
+      height: 450px;
+      background-color: #002529;
+   }
+   .footer-info .my-content {
+      position: absolute;
+      margin-bottom: 10px;
+      left: 120px;
+      top: 0;
+   }
+   .adres .good {
+      position: absolute;
+      text-align: center;
+      left: 50px;
+   }
+   .reserved {
+      position: absolute;
+      left: 40px;
+      bottom: 10px;
+   }
+   .blockk {
+      bottom: 10px;
+      margin-left: 95px;
+   }
+
+   .display-nonee {
+      position: absolute;
+      top: 150px;
+      text-align: center;
+      line-height: 27px;
+   }
+   /* THE END FOTTER */
+}
+
+
+/* THE END MEDIA-TWO */
+/* THE END CONTACT.HTML */

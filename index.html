@@ -7,11 +7,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans&display=swap" rel="stylesheet">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="stylesheet" href="style/style.css">
    <link rel="stylesheet" href="style/colmn.css">
-   <link rel="stylesheet" href="style/media.css">
    <title>lesson-2.7</title>
 </head>
 
@@ -20,9 +20,17 @@
    <header>
       <nav>
          <div class="container">
-            <!--<div class="col-lg-12">-->
-            <div class="navbar row">
-               <ul class="row">
+            <div class="navbar">
+               <div class="display-none">
+                  <p class="none-text">myteam</p>
+                  <div class="menu-teggle">
+                  <input class="checkbox" type="checkbox" id="check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               </div>
+               <ul class="none row">
                   <li><a href="#"><span class="font-size">myteam</span></a></li>
                   <li class="aktiv"><a href="index.html">home</a></li>
                   <li><a href="about.html">about</a></li>
@@ -57,20 +65,18 @@
    <section>
       <div class="container">
          <div class="content-setting">
-            <div class="row">
+            <div class="block-inline row">
                <div class="content-title">
                   <h2>Build & manage distributed teams <br> like no one else.</h2>
                </div>
 
-               <!--<div class="backgound"><img src="img/krug-left.svg" alt="icon"></div>-->
-
                <div class="poragrov-text">
                   <div class="bottom">
-                     <div class="row">
+                     <div class="bllock-inlline row">
                         <div class="img-icon">
-                           <img src="img/mane.svg" alt="icon">
+                           <img class="mane" src="img/mane.svg" alt="icon">
                         </div>
-                        <div class="information">
+                        <div class="information top">
                            <h3 class="bottom-color">Experienced Individuals</h3>
                            <p class="poragrov-infor">Our network is made up of highly experienced professionals<br>who
                               are passionate about what they do.</p>
@@ -79,11 +85,11 @@
                   </div>
 
                   <div class="bottom">
-                     <div class="row">
+                     <div class="bllock-inlline row">
                         <div class="img-icon">
-                           <img src="img/setting.svg" alt="icon">
+                           <img class="setup" src="img/setting.svg" alt="icon">
                         </div>
-                        <div class="information">
+                        <div class="information extra">
                            <h3 class="bottom-color">Experienced Individuals</h3>
                            <p class="poragrov-infor">Our network is made up of highly experienced professionals<br>who
                               are passionate about what they do.</p>
@@ -92,17 +98,17 @@
                   </div>
 
                   <div class="bottom">
-                     <div class="row">
+                     <div class="bllock-inlline row">
                         <div class="img-icon">
-                           <img src="img/analiz.svg" alt="icon">
+                           <img class="group" src="img/analiz.svg" alt="icon">
                         </div>
-                        <div class="information">
+                        <div class="information carlo">
                            <h3 class="bottom-color">Experienced Individuals</h3>
                            <p class="poragrov-infor">Our network is made up of highly experienced professionals<br>who
                               are passionate about what they do.</p>
                         </div>
                      </div>
-                     <img class="krug-leftimg" src="img/krug-left.svg" alt="">
+                     <!--<img class="krug-leftimg" src="img/krug-left.svg" alt="icon">-->
                   </div>
                </div>
             </div>
@@ -121,18 +127,19 @@
             </div>
 
             <div class="manegers">
-               <div class="row">
+               <div class="display row">
                   <div class="beautiful">
                      <div class="kady-baker">
                         <p class="infor-text">“The team perfectly fit the specialized skill set required. They focused
                            on the most essential features helping us launch the platform eight <br> months faster than
                            planned.”</p>
                         <span class="voman">Kady Baker</span>
-                        <p class="profession">Product Manager at Bookmark</p>
+                        <p class="profession left">Product Manager at Bookmark</p>
                         <img class="voman-img" src="img/kady.png" alt="image">
                      </div>
                   </div>
 
+                  <div class="tutuq">
                   <div class="beautiful">
                      <div class="kady-baker">
                         <p class="infor-text">“We needed to automate our entire onboarding process. The team came in and
@@ -142,6 +149,7 @@
                         <img class="voman-img" src="img/aiysha.png" alt="image">
                      </div>
                   </div>
+               </div>
          
                   <div class="beautiful">
                      <div class="kady-baker">
@@ -164,44 +172,47 @@
 
    
    <section>
-      <div class="conteiner">
+      <div class="container">
          <div class="contact-content">
          <div class="reade">
             <div class="readu-title">
             <img class="img-krug" src="img/krugright.svg" alt="image">
          </div>
-         <h3>Ready to get started?</h3>
+         <h3 class="ready-title">Ready to get started?</h3>
             <button class="contact-bttn" type="submit">contact us</button>
          </div>
       </div>
       </div>
    </section>
 
+
    <footer>
       <div class="container">
          <div class="footer-info row">
             <div class="my-content">
                <h2>myteam</h2>
-               <div class="row">
+               <div class="center row">
                   <p>home</p>
                   <p>about</p>
                </div>
             </div>
 
             <div class="adres">
-               <p>987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
+               <p class="good">987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
             </div>
             <div class="footer-liks">
                <ul>
-               <div class="row">
-                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#"><i class="bi bi-pinterest"></i></a></li>
-                  <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+               <div class="blockk row">
+                  <li class="footer-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li class="footer-item"><a href="#"><i class="bi bi-pinterest"></i></a></li>
+                  <li class="footer-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
                </div>
-               <p class="reserved">Copyright 2020. All Rights Reserved</p>
                </ul>
+               <p class="reserved">Copyright 2020. All Rights Reserved</p>
             </div>
+            <p class="display-nonee">987 Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
          </div>
+         
       </div>
    </footer>
 </body>
